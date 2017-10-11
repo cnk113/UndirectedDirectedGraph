@@ -4,12 +4,6 @@ import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.PriorityQueue;
 
-/**
- * A class that implements the ADT directed graph.
- * 
- * @author Frank M. Carrano
- * @version 2.0
- */
 public class DirectedGraph<T> implements BasicGraphInterface <T>, java.io.Serializable {
 	private DictionaryInterface<T, VertexInterface<T>> vertices;
 	private int edgeCount;
