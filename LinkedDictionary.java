@@ -2,13 +2,6 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.io.Serializable;
 
-/**
- * A class that implements the ADT dictionary by using a chain of nodes.
- * The dictionary is not sorted and has distinct search keys.
- *
- * @author Frank M. Carrano
- * @version 2.0
- */
 public class LinkedDictionary<K, V> 
              implements DictionaryInterface<K, V>, Serializable
 {
